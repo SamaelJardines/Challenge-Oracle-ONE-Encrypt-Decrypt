@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@200&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #e7edf4;
+}
+
+.logo {
+    color: #0A3871;
+    font-family: 'Alumni Sans', sans-serif;
+}
+
+section {
+    float: left;
+}
+
+textarea {
+    background-color: #e7edf4;
+    border: none;
+    outline: none;
+    resize: none;
+}
+
+textarea::placeholder {
+    color: #2d3c50;
+}
+
+.advertencia {
+    color: #495057;
+}
+
+.encriptar {
+    background-color: #0A3871;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 15px;
+    border-width: 1px;
+}
+
+.encriptar:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(255, 255, 255, 0.288) 0px 18px 36px -18px inset;
+}
+
+.desencriptar {
+    background-color: #D8DFE8;
+    color: #0A3871;
+    border-color: #0A3871;
+    cursor: pointer;
+    border-radius: 15px;
+    border-width: 1px;
+}
+
+.desencriptar:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+aside {
+    background-color: #FFFFFF;
+    border-radius: 25px;
+}
+
+.todo-mensajes {
+    color: #343A40;
+    text-align: center;
+    font-size: 30px;
+    padding: 30px 0px 0px 0px;
+}
+
+.todo-mensajes2 {
+    color: #495057;
+    text-align: center;
+    font-size: 18px;
+}
+
+#task-list li {
+    list-style: none;
+    font-size: 20px;
+    padding: 10px 0px 0px 0px;
+    margin: 0px 0px 0px 50px;
+}
+
+.copiar {
+    display: none;
+    background-color: #e2e2e2;
+    color: #032c5a;
+    cursor: pointer;
+    border-radius: 15px;
+    border-width: 1px;
+}
+
+.copiar:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+@media only screen and (min-width: 600px) {
+
+    .logo {
+        font-family: 'Alumni Sans', sans-serif;
+        font-size: 80px;
+        margin: 0px 0px 0px 60px;
+    }
+
+    section {
+        margin: 60px 0px 0px 80px;
+    }
+
+    textarea {
+        height: 670px;
+        width: 650px;
+        font-size: 30px;
+    }
+    
+    .encriptar {
+        height: 55px;
+        width: 300px;
+        font-size: 20px;
+    }
+    
+    .desencriptar {
+        height: 55px;
+        width: 300px;
+        font-size: 20px;
+        margin: 0px 0px 0px 40px;
+    }
+
+    aside {
+        height: 150px;
+        width: 650px;
+        margin: 850px 0px 0px 80px;
+    }
+
+    .imagen {
+        display: none;
+    }
+
+    .div-todo-mensajes {
+        height: 80px;
+    }
+
+    .div-todo-mensajes2 {
+        height: 80px;
+    }
+
+    .copiar {
+        height: 55px;
+        width: 600px;
+        font-size: 20px;
+        margin: 0px 0px 0px 30px;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    .logo {
+        font-family: 'Alumni Sans', sans-serif;
+        font-size: 80px;
+        margin: 0px 0px 0px 10px;
+    }
+
+    section {
+        margin: 40px 0px 0px 10px;
+    }
+
+    textarea {
+        height: 300px;
+        width: 350px;
+        font-size: 30px;
+    }
+    
+    .encriptar {
+        height: 55px;
+        width: 350px;
+        font-size: 20px;
+        margin: 10px 0px 0px 0px;
+    }
+    
+    .desencriptar {
+        height: 55px;
+        width: 350px;
+        font-size: 20px;
+        margin: 20px 0px 0px 0px;
+    }
+
+    aside {
+        height: 170px;
+        width: 350px;
+        margin: 570px 0px 60px 10px;
+    }
+
+    .imagen {
+        display: none;
+    }
+
+    .div-todo-mensajes {
+        height: 80px;
+    }
+
+    .div-todo-mensajes2 {
+        height: 100px;
+    }
+
+    .todo-mensajes {
+        text-align: center;
+        font-size: 30px;
+        padding: 15px 20px 0px 20px;
+    }
+    
+    .todo-mensajes2 {
+        text-align: center;
+        font-size: 18px;
+        padding: 0px 50px 0px 50px;
+    }
+
+    .copiar {
+        height: 55px;
+        width: 300px;
+        font-size: 20px;
+        margin: 0px 0px 0px 30px;
+    }
+
+}
+
+@media only screen and (min-width: 992px) {
+
+    .logo {
+        font-size: 120px;
+        margin: 0px 0px 0px 60px;
+    }
+    
+    section {
+        margin: 0px 0px 0px 280px;
+    }
+    
+    textarea {
+        height: 670px;
+        width: 740px;
+        font-size: 30px;
+    }
+
+    .encriptar {
+        height: 55px;
+        width: 350px;
+        font-size: 20px;
+    }
+
+    .desencriptar {
+        height: 55px;
+        width: 350px;
+        font-size: 20px;
+        margin: 0px 0px 0px 30px;
+    }
+
+    aside {
+        display: block;
+        float: right;
+        height: 880px;
+        width: 340px;
+        margin: -95px 100px 0px 0px;
+    }
+
+    .imagen {
+        display: block;
+        margin: 100px 0px 0px 0px;
+    }
+
+    .div-todo-mensajes {
+        height: 740px;
+    }
+
+    .div-todo-mensajes2 {
+        height: 755px;
+        margin: 30px 0px 0px 0px;
+    }
+
+    .copiar {
+        height: 55px;
+        width: 270px;
+        font-size: 20px;
+        margin: 0px 0px 0px 11%;
+    }
+    
+}
